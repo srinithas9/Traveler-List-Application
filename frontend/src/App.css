@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #6a0dad;
+  margin-bottom: 20px;
+}
+
+.app-container {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Input Fields */
+input {
+  font-size: 14px;
+}
+
+.search-input {
+  padding: 8px 12px;
+  font-size: 14px;
+  width: 200px;
+  border: 2px solid #6a0dad;
+  border-radius: 6px;
+}
+
+/* Search Button Styling */
+.search-btn {
+  background: linear-gradient(90deg, #6a0dad, #00cfff);
+  color: white;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.search-btn:hover {
+  background: linear-gradient(90deg, #00cfff, #6a0dad);
+  transform: scale(1.05);
+}
+
+/* Traveler Card */
+.traveler-card {
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  border-left: 5px solid #6a0dad;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.traveler-card:hover {
+  transform: translateY(-5px);
+}
+
+.traveler-card h3 {
+  color: #6a0dad;
+}
+
+.traveler-card p {
+  font-size: 14px;
+}
+
+/* Delete Button */
+.delete-btn {
+  background-color: #ff5252;
+  color: white;
+  padding: 10px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #e84141;
+}
