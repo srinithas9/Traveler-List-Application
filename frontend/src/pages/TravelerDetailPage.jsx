@@ -21,7 +21,7 @@ function TravelerDetailPage() {
       <h2>{traveler.name}</h2>
       <p>Age: {traveler.age}</p>
       <p>Email: {traveler.email}</p>
-      <p>Travel Date: {traveler.travelDate}</p>
+      <p>Travel Date: {new Date(traveler.travelDate).toLocaleDateString()}</p>
       <p>Created On: {new Date(traveler.createdAt).toLocaleString()}</p>
     </div>
   );

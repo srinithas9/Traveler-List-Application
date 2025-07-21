@@ -4,8 +4,8 @@ const travelerSchema = new mongoose.Schema({
   name: { type: String, required: true },
   age: { type: Number, required: true },
   email: { type: String, required: true },
-  travelDate: { type: String, required: true },
-}, { timestamps: true });  // This automatically adds createdAt & updatedAt fields
+  travelDate: { type: Date, required: true },   // ✅ Add this line
+}, { timestamps: true });
 
 const Traveler = mongoose.model('Traveler', travelerSchema);
 

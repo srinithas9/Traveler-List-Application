@@ -1,12 +1,49 @@
-# React + Vite
+ Project Name:
+Traveler List 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Overview:
+A web application that helps manage travelers using the MERN stack. Core functionalities:
+-View all travelers.
+-Add new travelers.
+-Delete travelers.
+-Search travelers by name or email.
+-View traveler details (detail page).
 
-Currently, two official plugins are available:
+Tech Stack Used:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend: React.js (Vite), React Router DOM
 
-## Expanding the ESLint configuration
+Backend: Node.js, Express.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Database: MongoDB (Mongoose)
+
+Others: Axios, dotenv
+
+Features:
+
+-Full CRUD operations with REST API integration.
+-React Router for navigation:
+-/travelers for list view.
+-/travelers/:id for traveler details.
+-Basic search feature.
+-Auto-generated createdOn date.
+-Custom vibrant UI with purple + cyan theme.
+
+
+Setup Instructions:
+=>Backend Setup (Node.js + Express)
+-Navigate to the backend folder:
+cd backend
+-Install dependencies:
+npm install
+-Start the backend server:
+node server.js
+=> Frontend Setup (React.js)
+-Navigate to the frontend folder:
+cd frontend
+-Start the React development server:
+npm run dev
+Access Application
+Open your browser and go to:
+http://localhost:5173/travelers
+

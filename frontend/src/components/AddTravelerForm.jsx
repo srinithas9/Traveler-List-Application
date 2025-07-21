@@ -8,8 +8,10 @@ function AddTravelerForm({ onAdd }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const newTraveler = { name, age, email, travelDate };
+    const newTraveler = { name, age, email, travelDate };  // ✅ Include travelDate
     onAdd(newTraveler);
+
+    // Reset form
     setName('');
     setAge('');
     setEmail('');
@@ -17,10 +19,10 @@ function AddTravelerForm({ onAdd }) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="add-traveler-form">
+    <form onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="Traveler Name"
+        placeholder="Name"
         value={name}
         onChange={(e) => setName(e.target.value)}
         required
