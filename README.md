@@ -14,6 +14,23 @@ Others: Axios, dotenv
 
 Features:
 
--Full CRUD operations with REST API integration. -React Router for navigation: -/travelers for list view. -/travelers/:id for traveler details. -Basic search feature. -Auto-generated createdOn date. -Custom vibrant UI with purple + cyan theme.
+-Full CRUD operations with REST API integration. 
+-React Router for navigation: 
+~/travelers for list view.
+~/travelers/:id for traveler details.
+-Basic search feature. 
+-Auto-generated createdOn date.
+-Custom vibrant UI with purple + cyan theme.
 
-Setup Instructions: =>Backend Setup (Node.js + Express) -Navigate to the backend folder: cd backend -Install dependencies: npm install -Start the backend server: node server.js => Frontend Setup (React.js) -Navigate to the frontend folder: cd frontend -Start the React development server: npm run dev Access Application Open your browser and go to: http://localhost:5173/travelers
+Setup Instructions:
+=>Backend Setup (Node.js + Express) 
+-Navigate to the backend folder:
+cd backend 
+-Install dependencies: 
+npm install 
+-Start the backend server: node server.js
+=> Frontend Setup (React.js) 
+-Navigate to the frontend folder: cd frontend 
+-Start the React development server:
+npm run dev 
+-Access Application Open your browser and go to: http://localhost:5173/travelers
